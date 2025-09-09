@@ -1,13 +1,13 @@
 import cv2 as cv
 
 # Reading Images
-# img = cv.imread('./Photos/cats.jpg')
+# img = cv.imread('../Photos/cats.jpg')
 # cv.imshow('Cats', img)
 
 # cv.waitKey(0) # Waits indefinitely until a key is pressed
 
 # Reading Videos
-capture = cv.VideoCapture('./Videos/dog.mp4')
+capture = cv.VideoCapture('../Videos/dog.mp4')
 
 while True:
     isTrue, frame = capture.read()
